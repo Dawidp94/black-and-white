@@ -1,0 +1,176 @@
+.section-1
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.image{
+    z-index: -1;
+    width: 30%;
+    height: 80%;
+    top: 100px;
+    position: absolute;
+    
+}
+
+header .header-article-first
+{
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 70; 
+    
+}
+
+
+.section-1 header h2 
+{
+    width: 100px;
+    height: 50px;
+    transform: rotate(-90deg);
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 200px;
+    letter-spacing: 5px;
+    margin: 650px 0 0 0;
+    white-space: nowrap;
+    z-index: 90;
+    text-shadow: 
+        4px 4px 6px rgb(24, 24, 24),
+        -2px -2px 6px rgba(255, 255, 255, 0.5);
+}
+
+
+.article-first{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 100px 50px 150px ;
+    width: 50%;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    z-index: 10;
+    
+}
+
+
+.img_v2{
+    position: fixed;
+    top: 0;
+}
+
+//////////////// what-clients-say  //////////////////////////
+
+.what-clients-say-container{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-clients-say-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    
+}
+
+.what-clients-say-header-title h3{
+   font-size: 50px;
+   font-family: 'Aboreto', cursive;
+   margin: 40px 50px 0 0;
+   text-shadow: 
+        4px 4px 6px rgb(24, 24, 24),
+        -2px -2px 6px rgba(255, 255, 255, 0.5);
+   
+}
+
+.what-clients-say-header-title p{
+    font-size: 12px;
+    margin: 0 0 20px 10px;
+}
+
+.what-clients-say-header-rating-number{
+    font-size: 150px;
+    font-family: 'Aboreto', cursive;
+    font-weight: 900;
+    opacity: 0.1;
+    margin: 0;
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+
+
+.what-clients-say-header-rating-stars .icon-star{
+    font-size: 23px;
+}
+
+.what-clients-say-header-rating{
+    margin: 80px 0 0 30px;
+}
+
+.what-clients-say-header-rating-text{
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.what-clients-say-coments{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-clients-say-coments-one-box{
+    width: 300px;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    box-shadow: 
+        4px 4px 6px rgb(24, 24, 24),
+        -2px -2px 6px rgba(255, 255, 255, 0.5);
+}
+
+.what-clients-say-coments-one-box p{
+    padding: 10px;
+}
+
+.what-clients-say-coments-users{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.what-clients-say-coments-users-name{
+    font-size: 15px;
+    font-family: 'Aboreto', cursive;
+}
+.what-clients-say-coments-users img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+    box-shadow: 
+        4px 4px 6px rgb(24, 24, 24),
+        -2px -2px 6px rgba(255, 255, 255, 0.5);
+}

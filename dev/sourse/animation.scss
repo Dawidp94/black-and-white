@@ -1,0 +1,19 @@
+
+
+/*logo*/
+@keyframes arrow 
+{
+    from {opacity: 1;}
+    to {opacity: 0;height: 0;}
+}
+
+
+/*logo*/
+@keyframes pentagon 
+{
+    20% { rotate: 30deg; transform: scaleX(1) scaleY(-1) skew(20deg, 10deg) matrix(1, -0.3, 0, 1, 0, 0)}
+    40% {rotate: 70deg; transform: scaleX(1) scaleY(-1) skew(20deg, -10deg) matrix(1, 0, 0, 1, 0, 0)}
+    60% {rotate: -30deg; transform: scaleX(1) scaleY(-1) skew(-5deg, -10deg) matrix(1, 0, 0, 1, 0, 1) }
+    80% {rotate: 10deg; transform: scaleX(1) scaleY(-1) skew(-23deg, 10deg) matrix(1, 0, 0, 1, 0, 0)}
+}
+

@@ -1,0 +1,111 @@
+
+.logo
+{
+    width: 600px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    color: white;
+}
+
+
+.word-1
+{
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    top: 140px;
+    left: 580px;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin: 0;
+    z-index: 10;
+}
+
+
+.word-2
+{
+    font-family: 'Red Hat Display', sans-serif;
+    position: absolute;
+    top: 170px;
+    left: 670px;
+    font-size: 150px;
+    letter-spacing: 0,5px;
+    margin: 0;
+    z-index: 10;
+    text-shadow: 
+        4px 4px 6px rgb(26, 26, 26),
+        -2px -2px 6px rgba(255, 255, 255, 0.5);
+}
+
+
+  .word-3
+{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    position: absolute;
+    top: 310px;
+    left: 680px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: 0;
+    z-index: 10;
+}
+
+
+
+.word-3::after
+{
+    content: " ";
+    width: 1px;
+    height: 190px;
+    background-color: white;
+    position: absolute;
+    top: 110px;
+    left: 25px;
+    -webkit-animation: arrow 2s forwards;
+    animation: arrow 2s forwards;
+    animation-delay: 5s;
+    z-index: 70;
+}
+
+.word-3::before
+{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 105px;
+    left: 1px;
+    -webkit-animation: arrow 2s forwards;
+    animation: arrow 2s forwards;
+    animation-delay: 3s;
+    z-index: 70;
+}
+
+
+.logo-arrow
+{
+    font-size: 100px;
+    font-weight: 100;
+    position: absolute;
+    top: 550px;
+    left: 673.5px;
+    -webkit-animation: arrow 2s forwards;
+    animation: arrow 2s forwards;
+    animation-delay: 5s;
+    z-index: 70; 
+    transform: rotate(90deg);
+}
+
+.pentagon
+{
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    left: 500px;
+    -webkit-animation: pentagon 10s infinite;
+    animation: pentagon 20s infinite;
+    z-index: 10;
+}

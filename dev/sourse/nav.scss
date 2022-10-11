@@ -1,0 +1,116 @@
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    .container{
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        top: 100px;
+        right: 90px;
+        transition: all 0.5s ease-in-out;
+        transition-duration: 1s;
+        margin: 0;
+    }
+    .container:hover{
+        transform: rotate(180deg);
+    }
+}
+
+.bar-1, .bar-2, .bar-3 {
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin: 10px 0;
+    transition: all 0.4s ease-in-out;
+    object-fit: cover;
+    pointer-events: none;
+    box-shadow: 
+        4px 4px 6px rgba(0, 0, 0, 1),
+        -2px -2px 6px rgba(255, 255, 255, 0.5);
+    
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+
+}
+
+.change .bar2{
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-11px, -10px) ;
+}
+
+nav{
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        top: 95px;
+        padding: 0;
+        left: 270px;
+        visibility:hidden;
+        opacity: 0;
+        transition: all 1s ease-in-out;
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            font-weight: 100;
+            font-size: 20px;
+            letter-spacing: 2px;
+            width: 180px;
+            height: 30px;
+            padding: 0 20px ;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        li::after{
+            content: " ";
+            width: 1px;
+            height: 30px;
+            background-color: white;
+            margin-left: 8px; 
+            transition: all 2s ease-in-out;
+        }
+        li:hover::after{
+            content: " ";
+            width: 1px;
+            height: 30px;
+            background-color: white;
+            margin-left: 8px; 
+            transform: rotate(90deg); width: 1px; height: 90px; translate: -50px -15px;
+        }
+        li::before{
+            content: " ";
+            width: 1px;
+            height: 30px;
+            background-color: white;
+            margin-right: 8px;
+            transition: all 2s ease-in-out;
+        }
+        li:hover::before{
+            content: " ";
+            width: 1px;
+            height: 30px;
+            background-color: white;
+            margin-right: 8px;
+            transform: rotate(-90deg); width: 1px; height: 90px; translate: 50px 15px;
+        }
+    }
+    
+}
+
+.navsChange{
+    visibility: visible;
+    opacity: 1;
+}

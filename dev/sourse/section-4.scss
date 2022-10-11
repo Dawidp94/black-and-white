@@ -1,0 +1,175 @@
+.section-4{
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/map.png');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.contact-map{
+    height: 70vh;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    width: 80%;
+    margin-inline: auto;
+    opacity: 1;
+    .contact-map-height{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        height: 50px;
+        .contact-map-text{
+            font-size: 40px;
+        }
+        .contact-map-find-us{
+            input{
+                width: 120px;
+                margin-left: 50px;
+                background-color: white;
+                color: black;
+                border-radius: 8px;
+                padding: 5px;
+                font-family: 'Alumni Sans Pinstripe', sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                text-transform: uppercase;
+                transition: all .2s ease-in-out;
+            }
+            input:hover{
+                transform: scale(1.2);
+                cursor: pointer;
+                background-color: rgb(168, 168, 168);
+            }
+        }
+    }
+}
+
+
+.contact-data{
+    background-color: black;
+    display: flex;
+    height: 30vh;
+    h4{
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 5px;
+        padding:10px 0 15px 0;
+    }
+    p{
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+    
+}
+
+.contact-data-our-adres{
+    width: 30%;
+    margin-left: 100px;
+    span{
+        font-size: 12px;
+    }
+}
+
+.contact-data-our-contacts{
+    width: 30%;
+}
+
+.contact-data-social-media{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-feedback{
+    width: 20%;
+    min-height: 50%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    h4{
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 5px;
+        margin-top: 25%;
+    }
+    
+}
+
+.contact-feedback-element{
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid black;
+    label{
+        font-size: 13px;
+        padding: 40px 30px 0 0 ;
+        margin: 0;
+    }
+    
+    input{
+        margin-left: 20px;
+        height: 20px;
+        border: none
+    }
+    input::placeholder{
+        font-size: 13px;
+    }
+}
+
+.contact-feedback-element-last{
+    label{
+        display: block;
+        font-size: 13px;
+        padding-top: 50px;
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 13px;
+        resize: none;
+      }
+}
+
+.contact-feedback-button{
+    margin: 20px 20px 0 0 ;
+    text-align: end;
+    input{
+        width: 50%;
+        border-radius: 8px;
+        padding: 5px;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: white;
+        transition: all .2s ease-in-out;
+    }
+}
+
+.contact-feedback-button input:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: rgb(168, 168, 168);
+}
+
+.demo-icon{
+    font-size: 50px;
+    opacity: 0.8;
+    transition: all .2s ease-in-out;
+}
+
+.demo-icon:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    cursor: pointer;
+}

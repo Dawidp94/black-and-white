@@ -1,0 +1,26 @@
+
+.galery {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top:10%;
+    .sticky-container-single-box{
+        width: 500px;
+        height: 500px;
+        margin:0 70px 0 6%;
+        padding: 150px 30px 50px 30px;
+        img{
+            width: 500px;
+            height: auto;
+            box-shadow: 
+                 4px 4px 6px rgb(24, 24, 24),
+                 -4px -4px 6px rgba(255, 255, 255, 0.5);
+             transition: all 1s ease-in-out;
+        }
+        img:hover{
+            transform: scale(1.4);
+            cursor: pointer;
+        }
+    }
+}
